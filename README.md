@@ -27,8 +27,5 @@ $ docker logs -f (dockerlampwp_php's CONTAINER ID)
 $ docker exec -it (dockerlampwp_mysql's CONTAINER ID) sh -c "mysqldump -u root --password=password wpdb 2> /dev/null" > mysql/db_dump/backup.sql
 ```
 
-## [More details]
-TBD :D
-
 ## [License]
 This is released under the MIT License, See LICENSE.

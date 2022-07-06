@@ -27,6 +27,7 @@ services:
     build: ./php
     volumes:
       - ./app:/var/www/html
+      - ./php/php.ini:/usr/local/etc/php/php.ini
     links:
       - mysql
     depends_on:
